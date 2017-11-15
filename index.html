@@ -1,30 +1,32 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-    <title>Introduction to Frontend!</title>
+  <title>Introduction to Frontend!</title>
 
-    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-    <meta name="author" content="Hakim El Hattab">
+  <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+  <meta name="author" content="Hakim El Hattab">
 
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-    <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/reveal.css">
 
-    <link rel="stylesheet" href="css/theme/moon.css" id="theme">
+  <link rel="stylesheet" href="css/theme/moon.css" id="theme">
 
-    <style type="text/css">
+  <style type="text/css">
     .green {
       color: #339933 !important;
     }
+
     .red {
       color: #993333 !important;
     }
+
     .yellow {
       color: #999933;
     }
@@ -36,101 +38,119 @@
     img {
       max-width: 600px !important;
     }
-    </style>
+  </style>
 
-    <!-- Code syntax highlighting -->
-    <link rel="stylesheet" href="lib/css/zenburn.css">
+  <!-- Code syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
 
-    <!-- Printing and PDF exports -->
-    <script>
-      var link = document.createElement( 'link' );
-      link.rel = 'stylesheet';
-      link.type = 'text/css';
-      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-      document.getElementsByTagName( 'head' )[0].appendChild( link );
-    </script>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
 
-    <!--[if lt IE 9]>
+  <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <div class="reveal">
+  <div class="reveal">
 
-      <!-- Any section element inside of this container is displayed as a slide -->
-      <div class="slides">
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
 
 
+      <section>
+        <h1>Introduction to Frontend!</h1>
+        <h3>HTML, CSS and jQuery basics.</h3>
+        <p>
+          <small>OBJECTWAY STAGE CLASS - 01/02/2016</small>
+        </p>
+      </section>
+
+      <section>
+        <h2>About me</h2>
+        <div>
+          <img src="me.jpg" style="border-radius: 100vh; width: 100px;" />
+        </div>
+        <p style="font-size: 0.5em;">
+          I'm
+          <strong>Alessandro Vioni</strong> and I'm a
+          <strong>scrum master</strong> and
+          <strong>frontend developer</strong>.
+          <br />
+          <br /> I love motorsports, football, action movies and the
+          <strong>smell of napalm</strong>.
+        </p>
+
+        <p style="font-size: 0.5em;">
+          You can find me on the internet with the nickname
+          <strong>Genoma</strong> or
+          <strong>Jenoma</strong>
+          <br>
+          <a href="https://twitter.com/jenoma/">Twitter</a>
+          -
+          <a href="https://github.com/genoma/">GitHub</a>
+        </p>
+      </section>
+
+      <section>
+        <p>Ladies and gentleman...</p>
+        <h1>START YOUR ENGINES</h1>
+      </section>
+
+      <section>
+        <h1>HTML</h1>
+      </section>
+
+      <section>
         <section>
-          <h1>Introduction to Frontend!</h1>
-          <h3>HTML, CSS and jQuery basics.</h3>
-          <p>
-            <small>OBJECTWAY STAGE CLASS - 01/02/2016</small>
-          </p>
+          <h2>Website layers</h2>
+          <img src="images/websitelayers.png" />
         </section>
 
         <section>
-          <h2>About me</h2>
-          <div><img src="me.jpg" style="border-radius: 100vh; width: 100px;" /></div>
-          <p style="font-size: 0.9em;">
-            I'm <strong>Davide Di Pumpo</strong> and I'm a front-end developer.
-            <br />
-            I love <strong>graphic</strong> novel, <strong>competitive</strong> videogames and <strong>cats</strong>.
-          </p>
-          <p style="font-size: 0.7em;">
-            You can find me on the internet with the nickname <strong>MakhBeth</strong>
-            <br>
-            <a href="https://twitter.com/makhbeth/">Twitter</a>
-            -
-            <a href="https://github.com/MakhBeth/">GitHub</a>
-            -
-            <a href="https://it.linkedin.com/in/davide-di-pumpo-2b370b55">LinkedIn</a>
-          </p>
-        </section>
-
-        <section data-background="gifs/starting_cat.gif">
-          <h1 style="text-shadow: 2px 2px 0px black;">Let's start MEOW</h1>
+          <h2>Website Users</h2>
+          <img src="images/websiteusers.png" />
         </section>
 
         <section>
-          <h1>HTML</h1>
+          <h2>What is HTML?</h2>
+          <br />
+          <h1 style="line-height: 0.5em;">
+            <strong>H</strong>
+            <small>yper</small>
+            <strong>T</strong>
+            <small>ext</small>
+            <strong>M</strong>
+            <small>arkup</small>
+            <strong>L</strong>
+            <small>anguage</small>
+          </h1>
         </section>
+      </section>
+
+      <section>
 
         <section>
-          <section>
-            <h2>Website layers</h2>
-            <img src="images/websitelayers.png" />
-          </section>
-
-          <section>
-            <h2>Website Users</h2>
-            <img src="images/websiteusers.png" />
-          </section>
-
-          <section>
-            <h2>What is HTML?</h2><br />
-            <h1 style="line-height: 0.5em;"><strong>H</strong><small>yper</small> <strong>T</strong><small>ext</small> <strong>M</strong><small>arkup</small> <strong>L</strong><small>anguage</small></h1>
-          </section>
-        </section>
-
-        <section>
-
-          <section>
-            <h2>Tags</h2>
-            <pre>
+          <h2>Tags</h2>
+          <pre>
               <code class="html">
 <p> <!-- open -->
   Content
 </p><!-- closed -->
               </code>
             </pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>Nested Tags</h2>
-            <pre>
+        <section>
+          <h2>Nested Tags</h2>
+          <pre>
               <code class="html">
 <div>
   <p>
@@ -139,11 +159,11 @@
 </div>
               </code>
             </pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>Basic Structure</h2>
-            <pre>
+        <section>
+          <h2>Basic Structure</h2>
+          <pre>
               <code class="html">
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -154,11 +174,11 @@
 &lt;/html&gt;
               </code>
             </pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>Head</h2>
-            <pre>
+        <section>
+          <h2>Head</h2>
+          <pre>
               <code class="html">
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -170,18 +190,11 @@
 &lt;/html&gt;
               </code>
             </pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>Let's try</h2>
-            <img src="gifs/try.gif">
-          </section>
-
-
-
-          <section>
-            <h2>Body</h2>
-            <pre>
+        <section>
+          <h2>Body</h2>
+          <pre>
               <code class="html">
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -195,93 +208,97 @@
 &lt;/html&gt;
               </code>
             </pre>
-          </section>
-
         </section>
 
+      </section>
+
+      <section>
         <section>
-          <section>
-            <h2>Tags</h2>
-            <div class="fragment">
-              <h4>Semantic Block</h4>
-              <pre><code class="html">
+          <h2>Tags</h2>
+          <div class="fragment">
+            <h4>Semantic Block</h4>
+            <pre><code class="html">
   &lt;h1&gt;&lt;p&gt;&lt;aside&gt;&lt;section&gt;&lt;footer&gt;&lt;ul&gt;&lt;ol&gt;&lt;li&gt;
               </code></pre>
-            </div>
-            <div class="fragment">
-              <h4>Inline elements</h4>
-              <pre><code class="html">
+          </div>
+          <div class="fragment">
+            <h4>Inline elements</h4>
+            <pre><code class="html">
   &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;span&gt;
               </code></pre>
-            </div>
-          </section>
+          </div>
+        </section>
 
-          <section>
-            <h2>Document flow</h2>
-            <img src="images/flow.png">
-          </section>
+        <section>
+          <h2>Document flow</h2>
+          <img src="images/flow.png">
+        </section>
 
-          <section>
-            <h2>Attributes</h2>
-              <pre><code class="html">
+        <section>
+          <h2>Attributes</h2>
+          <pre><code class="html">
 <img src="images/flow.png" alt="layout flow" />
               </code></pre>
-          </section>
-
-          <section>
-            <h3>Semantic</h3>
-            <small>If you learned something today, please must be that.</small>
-            <img src="images/semantic.png">
-          </section>
         </section>
 
         <section>
-          <h1>CSS</h1>
+          <h3>Semantic</h3>
+          <small>If you learned something today, please must be that.</small>
+          <img src="images/semantic.png">
+        </section>
+      </section>
+
+      <section>
+        <h1>CSS</h1>
+      </section>
+
+      <section>
+        <section>
+          <h2>What is CSS?</h2>
+          <h1 style="line-height: 0.5" class="fragment">C
+            <small>ascading</small> S
+            <small>tyle</small> S
+            <small>heets</small>
+          </h1>
+          <img class="fragment" width="400" src="images/cascading.png" />
         </section>
 
         <section>
-          <section>
-            <h2>What is CSS?</h2>
-            <h1 style="line-height: 0.5" class="fragment">C<small>ascading</small> S<small>tyle</small> S<small>heets</small></h1>
-            <img class="fragment" width="400" src="images/cascading.png" />
-          </section>
-
-          <section>
-            <h2>How to use it?</h2>
-            <pre class="fragment"><code class="html">
+          <h2>How to use it?</h2>
+          <pre class="fragment"><code class="html">
 &lt;head&gt;
   &lt;title&gt;Learn HTML&lt;/title&gt;
   &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;path-to-file/name.css&quot;&gt;
 &lt;/head&gt;
             </code></pre>
-            <pre class="fragment"><code class="html">
+          <pre class="fragment"><code class="html">
 &lt;style type=&quot;text/css&quot;&gt;
   p {color: red;}
 &lt;/style&gt;
             </code></pre>
-            <pre class="fragment"><code class="html">
+          <pre class="fragment"><code class="html">
 &lt;p style=&quot;color: red;&quot;&gt;Lorem ipsu&lt;/p&gt;
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>Rules</h2>
-            <pre><code class="css">
+        <section>
+          <h2>Rules</h2>
+          <pre><code class="css">
 section {
   background-color: rgb(255, 0, 0);
 }
             </code></pre>
-            <pre class="fragment"><code class="css">
+          <pre class="fragment"><code class="css">
 section /* SELECTOR */ {
   background-color: rgb(255, 0, 0); /* DECLARATION */
   /*  PROPERTY  */  /*   VALUE   */
 }
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>SELECTORS</h2>
-            <pre><code class="css">
+        <section>
+          <h2>SELECTORS</h2>
+          <pre><code class="css">
 section { /* ELEMENT */ }
 
 .name { /* CLASS */ }
@@ -293,11 +310,11 @@ section { /* ELEMENT */ }
 * { /* STAR SELECTOR a.k.a. wild card */ }
 
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>PSEUDO SELECTORS</h2>
-            <pre><code class="css">
+        <section>
+          <h2>PSEUDO SELECTORS</h2>
+          <pre><code class="css">
 
 :hover :link :visited :focus :visited :active :checked {
   /* PSEUDO-CLASS STATUS */
@@ -311,12 +328,12 @@ section { /* ELEMENT */ }
   /* PSEUDO-CLASS NEGATION */
 }
             </code></pre>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">Pseudo selectors DOC</a>
-          </section>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">Pseudo selectors DOC</a>
+        </section>
 
-          <section>
-            <h2>PSEUDO ELEMENTS</h2>
-            <pre><code class="css">
+        <section>
+          <h2>PSEUDO ELEMENTS</h2>
+          <pre><code class="css">
 
 ::after ::before {
   /* Add a pseudo element to the selector */
@@ -330,11 +347,11 @@ section { /* ELEMENT */ }
   /* Placeholder in an input */
 }
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>Affinity selectors</h2>
-            <pre><code class="css">
+        <section>
+          <h2>Affinity selectors</h2>
+          <pre><code class="css">
 
 .selector .element { /* .element child of .selector */ }
 
@@ -345,11 +362,11 @@ section { /* ELEMENT */ }
 .selector + .element { /* direct sibiling */ }
 
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>Attribute selectors</h2>
-            <pre><code class="css">
+        <section>
+          <h2>Attribute selectors</h2>
+          <pre><code class="css">
 
 p[class="pippo"] { /* Exact attribute */ }
 
@@ -366,185 +383,191 @@ p[class*="pippo"] { /* Contained */ }
 p[class="pippo" i] { /* Case insensitive */ }
 
             </code></pre>
-          </section>
         </section>
+      </section>
+      <section>
         <section>
-          <section>
-            <h2>Specificity</h2>
-            <p>Specificity determines, which CSS rule is applied by the browsers.</p>
-          </section>
-          <section style="font-size: 1rem;">
-            <table class="table-overview">
+          <h2>Specificity</h2>
+          <p>Specificity determines, which CSS rule is applied by the browsers.</p>
+        </section>
+        <section style="font-size: 1rem;">
+          <table class="table-overview">
             <tbody>
-            <tr>
-            <td class="num">1</td>
-            <td>* { }</td>
-            <td>0</td>
-            </tr>
-            <tr class="pdd">
-            <td class="num">2</td>
-            <td>li { }</td>
-            <td>1 (one element)</td>
-            </tr>
-            <tr>
-            <td class="num">3</td>
-            <td>li:first-line { }</td>
-            <td>2 (one element, one pseudo-element)</td>
-            </tr>
-            <tr class="pdd">
-            <td class="num">4</td>
-            <td>ul li { }</td>
-            <td>2 (two elements)</td>
-            </tr>
-            <tr>
-            <td class="num">5</td>
-            <td>ul ol+li { }</td>
-            <td>3 (three elements)</td>
-            </tr>
-            <tr class="pdd">
-            <td class="num">6</td>
-            <td>h1 + *[rel=up] { }</td>
-            <td>11 (one attribute, one element)</td>
-            </tr>
-            <tr>
-            <td class="num">7</td>
-            <td>ul ol li.red { }</td>
-            <td>13 (one class, three elements)</td>
-            </tr>
-            <tr class="pdd">
-            <td class="num">8</td>
-            <td>li.red.level { }</td>
-            <td>21 (two classes, one element)</td>
-            </tr>
-            <tr>
-            <td class="num">9</td>
-            <td>style=””</td>
-            <td>1000 (one inline styling)</td>
-            </tr>
-            <tr class="pdd">
-            <td class="num">10</td>
-            <td>p { }</td>
-            <td>1 (one HTML selector)</td>
-            </tr>
-            <tr>
-            <td class="num">11</td>
-            <td>div p { }</td>
-            <td>2 (two HTML selectors)</td>
-            </tr>
-            <tr class="pdd">
-            <td class="num">12</td>
-            <td>.sith</td>
-            <td>10 (one class selector)</td>
-            </tr>
-            <tr>
-            <td class="num">13</td>
-            <td>div p.sith { }</td>
-            <td>12 (two HTML selectors and a class selector)</td>
-            </tr>
-            <tr class="pdd">
-            <td class="num">14</td>
-            <td>#sith</td>
-            <td>100 (one id selector)</td>
-            </tr>
-            <tr>
-            <td>15</td>
-            <td>body #darkside .sith p { }</td>
-            <td>112 (HTML selector, id selector, class selector, HTML selector; 1+100+10+1)</td>
-            </tr>
+              <tr>
+                <td class="num">1</td>
+                <td>* { }</td>
+                <td>0</td>
+              </tr>
+              <tr class="pdd">
+                <td class="num">2</td>
+                <td>li { }</td>
+                <td>1 (one element)</td>
+              </tr>
+              <tr>
+                <td class="num">3</td>
+                <td>li:first-line { }</td>
+                <td>2 (one element, one pseudo-element)</td>
+              </tr>
+              <tr class="pdd">
+                <td class="num">4</td>
+                <td>ul li { }</td>
+                <td>2 (two elements)</td>
+              </tr>
+              <tr>
+                <td class="num">5</td>
+                <td>ul ol+li { }</td>
+                <td>3 (three elements)</td>
+              </tr>
+              <tr class="pdd">
+                <td class="num">6</td>
+                <td>h1 + *[rel=up] { }</td>
+                <td>11 (one attribute, one element)</td>
+              </tr>
+              <tr>
+                <td class="num">7</td>
+                <td>ul ol li.red { }</td>
+                <td>13 (one class, three elements)</td>
+              </tr>
+              <tr class="pdd">
+                <td class="num">8</td>
+                <td>li.red.level { }</td>
+                <td>21 (two classes, one element)</td>
+              </tr>
+              <tr>
+                <td class="num">9</td>
+                <td>style=””</td>
+                <td>1000 (one inline styling)</td>
+              </tr>
+              <tr class="pdd">
+                <td class="num">10</td>
+                <td>p { }</td>
+                <td>1 (one HTML selector)</td>
+              </tr>
+              <tr>
+                <td class="num">11</td>
+                <td>div p { }</td>
+                <td>2 (two HTML selectors)</td>
+              </tr>
+              <tr class="pdd">
+                <td class="num">12</td>
+                <td>.sith</td>
+                <td>10 (one class selector)</td>
+              </tr>
+              <tr>
+                <td class="num">13</td>
+                <td>div p.sith { }</td>
+                <td>12 (two HTML selectors and a class selector)</td>
+              </tr>
+              <tr class="pdd">
+                <td class="num">14</td>
+                <td>#sith</td>
+                <td>100 (one id selector)</td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>body #darkside .sith p { }</td>
+                <td>112 (HTML selector, id selector, class selector, HTML selector; 1+100+10+1)</td>
+              </tr>
             </tbody>
-            </table>
-          </section>
-          <section>
-            <h2>Let's try</h2>
-            <img src="gifs/try.gif">
-          </section>
+          </table>
+        </section>
+      </section>
+
+      <section>
+        <section>
+          <h2>Box Model</h2>
+        </section>
+        <section>
+          <h2>Box Model Block</h2>
+          <img src="images/boxmodel.png">
+        </section>
+        <section>
+          <h2>Box Model Inline</h2>
+          <img src="images/boxmodelinline.png">
+        </section>
+      </section>
+
+      <section>
+        <section>
+          <h2>Position</h2>
+        </section>
+        <section>
+          <h2>Position relative</h2>
+          <img src="images/positionrelative.png">
+        </section>
+        <section>
+          <h2>Position Absolute</h2>
+          <img src="images/positionabsolute.png">
+        </section>
+        <section>
+          <h2>Position fixed</h2>
+          <img src="images/positionfixed.png">
+        </section>
+      </section>
+
+      <section>
+        <section>
+          <h1>CSS LAYOUT</h1>
         </section>
 
         <section>
-          <section>
-            <h2>Box Model</h2>
-          </section>
-          <section>
-            <h2>Box Model Block</h2>
-            <img src="images/boxmodel.png">
-          </section>
-          <section>
-            <h2>Box Model Inline</h2>
-            <img src="images/boxmodelinline.png">
-          </section>
+          <h2>The holy grail layout</h2>
+          <img src="images/HolyGrail.png" style="width: 300px;">
+          <p style="text-align: left;">
+            <small>
+              <code>
+                The Holy Grail refers to a web page layout which has multiple, equal height columns that are defined with style sheets. It
+                is commonly desired and implemented, although the ways in which it can be implemented with current technologies
+                all have drawbacks. Because of this, finding an optimal implementation has been likened to searching for
+                the elusive Holy Grail.
+              </code>
+            </small>
+          </p>
+          <p style="text-align: right;">
+            <small>
+              <a href="https://en.wikipedia.org/wiki/Holy_Grail_(web_design)">Source - Wikipedia</a>
+            </small>
+          </p>
         </section>
 
         <section>
-          <section>
-            <h2>Position</h2>
-          </section>
-          <section>
-            <h2>Position relative</h2>
-            <img src="images/positionrelative.png">
-          </section>
-          <section>
-            <h2>Position Absolute</h2>
-            <img src="images/positionabsolute.png">
-          </section>
-          <section>
-            <h2>Position fixed</h2>
-            <img src="images/positionfixed.png">
-          </section>
-        </section>
-
-        <section>
-          <section>
-            <h1>CSS LAYOUT</h1>
-          </section>
-
-          <section>
-            <h2>The holy grail layout</h2>
-            <img src="images/HolyGrail.png" style="width: 300px;">
-            <p style="text-align: left;">
-              <small>
-                <code>
-                  The Holy Grail refers to a web page layout which has multiple, equal height columns that are defined with style sheets. It is commonly desired and implemented, although the ways in which it can be implemented with current technologies all have drawbacks. Because of this, finding an optimal implementation has been likened to searching for the elusive Holy Grail.
-                </code>
-              </small>
-            </p>
-            <p style="text-align: right;">
-              <small><a href="https://en.wikipedia.org/wiki/Holy_Grail_(web_design)">Source - Wikipedia</a></small>
-            </p>
-          </section>
-
-          <section>
-            <h2>Once upon a time...</h2>
-            <h4 class="fragment">...we had:</h4>
-            <p>
-              <ul>
-                <li class="fragment">
-                  <a href="http://codepen.io/colintoh/pen/tGmDp">Tables</a></li>
-                <li class="fragment">Inline block</li>
-                <li class="fragment"><a href="http://alistapart.com/d/holygrail/example_1.html">Float</a></li>
-              </ul>
-            </p>
-          </section>
-
-          <section>
-            <h2>Today we have</h2>
+          <h2>Once upon a time...</h2>
+          <h4 class="fragment">...we had:</h4>
+          <p>
             <ul>
-              <li><a href="http://codepen.io/MakhBeth/pen/xZbymx?editors=010">Flexbox</a></li>
-              <li>
-                <a href="http://www.w3.org/TR/css-grid-1/"
-                    target="_blank">
-                      CSS grid (soon)
-                  </a>
+              <li class="fragment">
+                <a href="http://codepen.io/colintoh/pen/tGmDp">Tables</a>
               </li>
-          </section>
+              <li class="fragment">Inline block</li>
+              <li class="fragment">
+                <a href="http://alistapart.com/d/holygrail/example_1.html">Float</a>
+              </li>
+            </ul>
+          </p>
+        </section>
+
+        <section>
+          <h2>Today we have</h2>
+          <ul>
+            <li>
+              <a href="http://codepen.io/MakhBeth/pen/xZbymx?editors=010">Flexbox</a>
+            </li>
+            <li>
+              <a href="http://www.w3.org/TR/css-grid-1/" target="_blank">
+                CSS grid (soon)
+              </a>
+            </li>
+        </section>
 
 
-          <section>
-            <div>
-              Differences between
-              <strong>container</strong> and <strong>item</strong>
-            </div>
-            <div class="fragment">
-              <div style="
+        <section>
+          <div>
+            Differences between
+            <strong>container</strong> and
+            <strong>item</strong>
+          </div>
+          <div class="fragment">
+            <div style="
                 display: flex;
                 border: 1px solid white;
                 padding: 10px;
@@ -552,37 +575,34 @@ p[class="pippo" i] { /* Case insensitive */ }
                 flex-direction: row;
                 justify-content: space-between;
               ">
-                <div
-                  data-markdown
-                  style="flex-basis: 100%;"
-                >```display: flex;```
-                </div>
-                <div style="
-                  border: 1px solid white;
-                  padding: 10px;
-                  flex-basis: 25%;
-                ">Flex item</div>
-                <div style="
-                  border: 1px solid white;
-                  padding: 10px;
-                  flex-basis: 25%;
-                ">Flex item</div>
-                <div style="
-                  border: 1px solid white;
-                  padding: 10px;
-                  flex-basis: 25%;
-                ">Flex item</div>
+              <div data-markdown style="flex-basis: 100%;">```display: flex;```
               </div>
-            </div>
-          </section>
-
-
-          <section>
-            <div style="margin-bottom: 10px;">
-              Direction
-            </div>
-            <div class="fragment">
               <div style="
+                  border: 1px solid white;
+                  padding: 10px;
+                  flex-basis: 25%;
+                ">Flex item</div>
+              <div style="
+                  border: 1px solid white;
+                  padding: 10px;
+                  flex-basis: 25%;
+                ">Flex item</div>
+              <div style="
+                  border: 1px solid white;
+                  padding: 10px;
+                  flex-basis: 25%;
+                ">Flex item</div>
+            </div>
+          </div>
+        </section>
+
+
+        <section>
+          <div style="margin-bottom: 10px;">
+            Direction
+          </div>
+          <div class="fragment">
+            <div style="
                 display: flex;
                 border: 1px solid white;
                 padding: 10px;
@@ -591,44 +611,38 @@ p[class="pippo" i] { /* Case insensitive */ }
                 justify-content: space-between;
                 margin-bottom: 10px;
               ">
-                <div
-                  data-markdown
-                  style="flex-basis: 100%;"
-                >------ direction row ------>
-                </div>
-                <div style="
-                  border: 1px solid white;
-                  padding: 10px;
-                  flex-basis: 25%;
-                ">Flex item</div>
-                <div style="
-                  border: 1px solid white;
-                  padding: 10px;
-                  flex-basis: 25%;
-                ">Flex item</div>
-                <div style="
-                  border: 1px solid white;
-                  padding: 10px;
-                  flex-basis: 25%;
-                ">Flex item</div>
+              <div data-markdown style="flex-basis: 100%;">------ direction row ------>
               </div>
+              <div style="
+                  border: 1px solid white;
+                  padding: 10px;
+                  flex-basis: 25%;
+                ">Flex item</div>
+              <div style="
+                  border: 1px solid white;
+                  padding: 10px;
+                  flex-basis: 25%;
+                ">Flex item</div>
+              <div style="
+                  border: 1px solid white;
+                  padding: 10px;
+                  flex-basis: 25%;
+                ">Flex item</div>
             </div>
+          </div>
 
 
-            <div class="fragment"style="
+          <div class="fragment" style="
                 display: flex;
                 border: 1px solid white;
                 padding: 10px;
               ">
-              <div style="flex: 0 0 15px;">
-                <small
-                  data-markdown
-                  style="flex-basis: 100%;"
-                >
+            <div style="flex: 0 0 15px;">
+              <small data-markdown style="flex-basis: 100%;">
                 C o l u m n
-                </small>
-              </div>
-              <div style="
+              </small>
+            </div>
+            <div style="
                 display: flex;
                 padding: 10px;
                 flex-wrap: wrap;
@@ -636,35 +650,35 @@ p[class="pippo" i] { /* Case insensitive */ }
                 justify-content: space-between;
                 flex: 1 0 auto;
               ">
-                <div style="
-                  border: 1px solid white;
-                  padding: 10px;
-                  flex-basis: 25%;
-                  width: 100%;
-                ">Flex item</div>
-                <div style="
-                  border: 1px solid white;
-                  padding: 10px;
-                  flex-basis: 25%;
-                  width: 100%;
-                ">Flex item</div>
-                <div style="
-                  border: 1px solid white;
-                  padding: 10px;
-                  flex-basis: 25%;
-                  width: 100%;
-                ">Flex item</div>
-              </div>
-            </div>
-          </section>
-
-
-          <section>
-            <div>
-              Flex Basis, all is relative
-            </div>
-            <div class="fragment">
               <div style="
+                  border: 1px solid white;
+                  padding: 10px;
+                  flex-basis: 25%;
+                  width: 100%;
+                ">Flex item</div>
+              <div style="
+                  border: 1px solid white;
+                  padding: 10px;
+                  flex-basis: 25%;
+                  width: 100%;
+                ">Flex item</div>
+              <div style="
+                  border: 1px solid white;
+                  padding: 10px;
+                  flex-basis: 25%;
+                  width: 100%;
+                ">Flex item</div>
+            </div>
+          </div>
+        </section>
+
+
+        <section>
+          <div>
+            Flex Basis, all is relative
+          </div>
+          <div class="fragment">
+            <div style="
                 display: flex;
                 border: 1px solid white;
                 padding: 10px;
@@ -672,22 +686,22 @@ p[class="pippo" i] { /* Case insensitive */ }
                 flex-direction: row;
                 justify-content: space-between;
               ">
-                <div data-markdown style="
+              <div data-markdown style="
                   border: 1px solid white;
                   padding: 10px;
                   flex-basis: 50%;
                   box-sizing: border-box;
                 ">```flex-basis: 50%;```</div>
-                <div data-markdown style="
+              <div data-markdown style="
                   border: 1px solid white;
                   padding: 10px;
                   flex-basis: 50%;
                   box-sizing: border-box;
                 ">```flex-basis: 50%;```</div>
-              </div>
             </div>
-            <div class="fragment">
-              <div style="
+          </div>
+          <div class="fragment">
+            <div style="
                 display: flex;
                 border: 1px solid white;
                 padding: 10px;
@@ -696,102 +710,88 @@ p[class="pippo" i] { /* Case insensitive */ }
                 justify-content: space-between;
                 min-height: 100px;
               ">
-                <div data-markdown style="
+              <div data-markdown style="
                   border: 1px solid white;
                   padding: 10px;
                   flex-basis: 50%;
                   box-sizing: border-box;
                 ">```flex-basis: 50%;```</div>
-                <div data-markdown style="
+              <div data-markdown style="
                   border: 1px solid white;
                   padding: 10px;
                   flex-basis: 50%;
                   box-sizing: border-box;
                 ">```flex-basis: 50%;```</div>
-              </div>
             </div>
-          </section>
-
+          </div>
         </section>
 
-        <section data-background="gifs/photo.png">
-          <h2 style="transform: translateY(-180%)">
-            <a
-              href="http://codepen.io/MakhBeth/pen/avedNx"
-              style="color: black;"
-              target="_blank"
-            >
-              Let's see all the rules!
-            </a>
-          </h2>
+      </section>
+
+      <section>
+        <h1>jQuery</h1>
+      </section>
+
+      <section>
+        <section>
+          <h2>What is jQuery?</h2>
+          <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like DOM, event handling, animation,
+            and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of
+            versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.</p>
+        </section>
+        <section>
+          <h2>What is the DOM?</h2>
+          <p>Well, the DOM stands for "Document Object Model"</p>
+          <p>Basically is the API through which You can parse and manipulate the Document via javascript.</p>
+        </section>
+        <section>
+          <h2>What does jQuery?</h2>
+          <ul>
+            <li>
+              Focus on the interaction between JavaScript and HTML
+            </li>
+            <li>
+              (Almost) every operation boils down to:
+            </li>
+            <li>
+              Find some stuff
+            </li>
+            <li>
+              Do something to it
+            </li>
+          </ul>
         </section>
 
         <section>
-          <h1><a href="http://flexboxfroggy.com">Let's play</a></h1>
-        </section>
-
-        <section>
-          <h1>jQuery</h1>
-        </section>
-
-        <section>
-          <section>
-            <h2>What is jQuery?</h2>
-            <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like DOM, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.</p>
-          </section>
-          <section>
-            <h2>What is the DOM?</h2>
-            <p>Well, the DOM stands for "Document Object Model"</p>
-            <p>Basically is the API through which You can parse and manipulate the Document via javascript.</p>
-          </section>
-          <section>
-            <h2>What does jQuery?</h2>
-            <ul>
-              <li>
-                Focus on the interaction between JavaScript and HTML
-              </li>
-              <li>
-                (Almost) every operation boils down to:
-              </li>
-              <li>
-                Find some stuff
-              </li>
-              <li>
-                Do something to it
-              </li>
-            </ul>
-          </section>
-
-          <section>
-            <h2>Only one function</h2>
-            <p>Absolutely everything (almost) starts with a call to the jQuery() function. Since it’s called so often, the $ variable is set up as an alias to jQuery</p>
-            <pre><code class="javascript">
+          <h2>Only one function</h2>
+          <p>Absolutely everything (almost) starts with a call to the jQuery() function. Since it’s called so often, the $ variable
+            is set up as an alias to jQuery</p>
+          <pre><code class="javascript">
                jQuery('#nav');
                jQuery('div#intro h2');
                jQuery('#nav li.current a');
-            </code></pre>
-            a.k.a.
-            <pre><code class="javascript">
+            </code></pre> a.k.a.
+          <pre><code class="javascript">
                $('#nav');
                $('div#intro h2');
                $('#nav li.current a');
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>CSS selector</h2>
-            <pre><code class="css">
+        <section>
+          <h2>CSS selector</h2>
+          <pre><code class="css">
               a[rel]
               a[rel="friend"]
               a[href^="http://"]
               ul#nav > li
               li#current ~ li
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>And something more</h2>
-            <pre><code class="css">
+        <section>
+          <h2>And something more</h2>
+          <pre><code class="css">
               div:first, h3:last
               :header
               :hidden, :visible
@@ -799,46 +799,45 @@ p[class="pippo" i] { /* Case insensitive */ }
               :input, :text, :password, :radio, :submit...
               div:contains(Hello)
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>jQuery Collections</h2>
-            <p>$('div.section') returns a jQuery collection
-            <br>
-            You can call treat it like an array
-            </p>
-            <pre><code class="javascript">
+        <section>
+          <h2>jQuery Collections</h2>
+          <p>$('div.section') returns a jQuery collection
+            <br> You can call treat it like an array
+          </p>
+          <pre><code class="javascript">
   $('div.section').length // no. of matched elements
   $('div.section')[0] //the first div DOM element
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>jQuery Collections</h2>
-            <p>$('div.section') returns a jQuery collection
-            <br>
-            You can call methods on it
-            </p>
-            <pre><code class="javascript">
+        <section>
+          <h2>jQuery Collections</h2>
+          <p>$('div.section') returns a jQuery collection
+            <br> You can call methods on it
+          </p>
+          <pre><code class="javascript">
   $('div.section').size()
   $('div.section').each(function(i) {
     console.log("Item " + i + " is ", this);
   });
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>jQuery Chaining</h2>
-            <p>Most jQuery methods return another jQuery object - usually one representing the same collection.This means you can chain methods together:
-            </p>
-            <pre><code class="javascript">
+        <section>
+          <h2>jQuery Chaining</h2>
+          <p>Most jQuery methods return another jQuery object - usually one representing the same collection.This means you
+            can chain methods together:
+          </p>
+          <pre><code class="javascript">
   $('div.section').hide().addClass('gone');
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>Traversing the DOM</h2>
-            <pre><code class="javascript">
+        <section>
+          <h2>Traversing the DOM</h2>
+          <pre><code class="javascript">
 $('div.section').parent();
 
 $('div.section').next();
@@ -849,27 +848,27 @@ $('div.section').nextAll('div');
 
 $('h1:first').parents();
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>Moving element</h2>
-            <pre><code class="javascript">
+        <section>
+          <h2>Moving element</h2>
+          <pre><code class="javascript">
 $('div.section').parent().append() // or appendTo(), before(), after(),
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>HTML MANIPULATION</h2>
-            <pre><code class="javascript">
+        <section>
+          <h2>HTML MANIPULATION</h2>
+          <pre><code class="javascript">
   $('span#msg').text('The thing was updated!');
 
   $('div#intro').html('<em>Look, HTML</em>');
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>ATTRIBUTE MANIPULATION</h2>
-            <pre><code class="javascript">
+        <section>
+          <h2>ATTRIBUTE MANIPULATION</h2>
+          <pre><code class="javascript">
 
 $('a.nav').attr('href', 'http://flickr.com/');
 
@@ -880,21 +879,21 @@ $('a.nav').attr({
 
 $('#intro').removeAttr('id');
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>CSS MANIPULATION</h2>
-            <pre><code class="javascript">
+        <section>
+          <h2>CSS MANIPULATION</h2>
+          <pre><code class="javascript">
 $('p').css('font-size', '20px');
 
 $('p').css({'font-size': '20px', color: 'red'});
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>ANIMATIONS</h2>
-            <p>jQuery has built in effects: </p>
-            <pre><code class="javascript">
+        <section>
+          <h2>ANIMATIONS</h2>
+          <p>jQuery has built in effects: </p>
+          <pre><code class="javascript">
 $('h1').hide('slow');
 
 $('h1').slideDown('fast');
@@ -904,11 +903,11 @@ $('h1').fadeOut(2000);
 // You can chain them:
 $('h1').fadeOut(1000).slideDown()
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>ANIMATIONS DIY</h2>
-            <pre><code class="javascript">
+        <section>
+          <h2>ANIMATIONS DIY</h2>
+          <pre><code class="javascript">
 $("#block").animate({
   width: "+=60px",
   opacity: 0.4,
@@ -916,11 +915,11 @@ $("#block").animate({
   borderWidth: "10px"
 }, 1500);
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>Grabbing values</h2>
-            <pre><code class="javascript">
+        <section>
+          <h2>Grabbing values</h2>
+          <pre><code class="javascript">
 var height = $('div#intro').height();
 
 var src = $('img.photo').attr('src');
@@ -931,75 +930,100 @@ var hasFoo = $('p').hasClass('foo');
 
 var email = $('input#email').val();
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>Handling events</h2>
-            <pre><code class="javascript">
+        <section>
+          <h2>Handling events</h2>
+          <pre><code class="javascript">
 $('a:first').click(function(ev) {
   $(this).css({backgroundColor: 'orange'});
   return false; // Or ev.preventDefault();
 });
             </code></pre>
-          </section>
+        </section>
 
-          <section>
-            <h2>Ajax</h2>
-            <p>
-              jQuery has excellent support for Ajax
-            </p>
-            <pre><code class="javascript">
+        <section>
+          <h2>Ajax</h2>
+          <p>
+            jQuery has excellent support for Ajax
+          </p>
+          <pre><code class="javascript">
 $('div#intro').load('/some/file.html');
             </code></pre>
-            <p>
-More advanced methods include:</p>
-            <pre><code class="javascript">
+          <p>
+            More advanced methods include:</p>
+          <pre><code class="javascript">
  $.get(url, params, callback);
  $.post(url, params, callback);
  $.getJSON(url, params, callback);
  $.getScript(url, callback);
             </code></pre>
-          </section>
-
         </section>
-      </div>
 
+      </section>
     </div>
 
-    <script src="lib/js/head.min.js"></script>
-    <script src="js/reveal.js"></script>
+  </div>
 
-    <script>
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.js"></script>
 
-      // Full list of configuration options available at:
-      // https://github.com/hakimel/reveal.js#configuration
-      Reveal.initialize({
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
+  <script>
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
 
-        width: 820,
-        height: 580,
+      width: 900,
+      height: 600,
 
-        minScale: 0.1,
-        maxScale: 1.5,
-        margin: 0.1,
+      minScale: 0.1,
+      maxScale: 1.5,
+      margin: 0.1,
 
-        transition: 'slide', // none/fade/slide/convex/concave/zoom
+      transition: 'slide', // none/fade/slide/convex/concave/zoom
 
-        // Optional reveal.js plugins
-        dependencies: [
-          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-          { src: 'plugin/zoom-js/zoom.js', async: true },
-          { src: 'plugin/notes/notes.js', async: true }
-        ]
-      });
+      // Optional reveal.js plugins
+      dependencies: [{
+          src: 'lib/js/classList.js',
+          condition: function () {
+            return !document.body.classList;
+          }
+        },
+        {
+          src: 'plugin/markdown/marked.js',
+          condition: function () {
+            return !!document.querySelector('[data-markdown]');
+          }
+        },
+        {
+          src: 'plugin/markdown/markdown.js',
+          condition: function () {
+            return !!document.querySelector('[data-markdown]');
+          }
+        },
+        {
+          src: 'plugin/highlight/highlight.js',
+          async: true,
+          callback: function () {
+            hljs.initHighlightingOnLoad();
+          }
+        },
+        {
+          src: 'plugin/zoom-js/zoom.js',
+          async: true
+        },
+        {
+          src: 'plugin/notes/notes.js',
+          async: true
+        }
+      ]
+    });
+  </script>
 
-    </script>
+</body>
 
-  </body>
 </html>
